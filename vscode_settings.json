@@ -1,0 +1,60 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontFamily": "SauceCodePro NF",
+  "git.autofetch": true,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.sql": "jinja-sql"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+  },
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.analysis.typeCheckingMode": "strict",
+  "python.formatting.provider": "black",
+  // "python.venvPath": "/Users/robertoffner/kg_games/envs/databricks-connect/lib/python3.8/site-packages/pyspark/jars",
+  // "python.linting.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.inlineSuggest.enabled": true,
+  "git.confirmSync": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "files.autoSave": "afterDelay",
+  "gitlab.instanceUrl": "https://gitlab.kolibrigames.com/",
+  "[jsonc]": {
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.smartRelativeLine": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.useCtrlKeys": true,
+  "vim.sneak": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "python.envFile": "${workspaceFolder}/.venv",
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "sourcery.token": "user_yukKLtg8UuhEUUIOqvW_6niwwow5kAovQREsq1Q0RivYdxhLdGKUc5XxNSU",
+  "rust-client.disableRustup": true,
+  "GitLive.Issue tracker integration": "Disabled",
+}
