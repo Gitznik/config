@@ -54,7 +54,6 @@
     "**/.settings": true,
     "**/.factorypath": true
   },
-  "sourcery.token": "user_yukKLtg8UuhEUUIOqvW_6niwwow5kAovQREsq1Q0RivYdxhLdGKUc5XxNSU",
   "rust-client.disableRustup": true,
   "GitLive.Issue tracker integration": "Disabled",
 }
