@@ -39,10 +39,6 @@ antigen bundle darvid/zsh-poetry
 antigen bundle zsh-users/zsh-completions
 antigen apply
 
-# pienv setup
-echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
-echo 'eval "$(pyenv init -)"' >> ~/.zshrc
-
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="$HOME/.poetry/bin:$PATH"
@@ -54,12 +50,4 @@ eval "$(starship init zsh)"
 
 # Created by `pipx` on 2021-12-15 11:25:43
 export PATH="$PATH:/Users/robertoffner/.local/bin"
-eval "$(pyenv init -)"
-eval "$(pyenv init -)"
-eval "$(pyenv init -)"
-eval "$(pyenv init -)"
-eval "$(pyenv init -)"
-eval "$(pyenv init -)"
-eval "$(pyenv init -)"
-eval "$(pyenv init -)"
 eval "$(pyenv init -)"
