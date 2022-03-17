@@ -14,10 +14,8 @@ alias pa="source $(poetry env info --path)/bin/activate"
 # git aliases
 alias gp='git push'
 alias gpu='git push -u origin HEAD'
-alias feature_branch='git checkout staging && git pull && git checkout -b'
-alias hotfix_branch='git checkout master && git pull && git checkout -b'
+alias feature_branch='git checkout master && git pull && git checkout -b'
 alias master="git checkout master && git pull"
-alias staging="git checkout staging && git pull"
 
 # command line aliases
 alias la='ls -a'
